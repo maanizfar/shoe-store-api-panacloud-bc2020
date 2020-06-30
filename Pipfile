@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 psycopg2-binary = "*"
 python-dotenv = "*"
+djangorestframework = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.8"
