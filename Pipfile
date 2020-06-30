@@ -7,6 +7,9 @@ name = "pypi"
 psycopg2-binary = "*"
 python-dotenv = "*"
 djangorestframework = "*"
+django-on-heroku = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
