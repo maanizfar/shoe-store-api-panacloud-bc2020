@@ -30,6 +30,7 @@ class Product(models.Model):
     price = models.PositiveIntegerField()
     imageURL = models.URLField()
     is_in_inventory = models.BooleanField(default=True)
+    items_left = models.PositiveIntegerField(default=3)
 
     def __str__(self):
         return self.name
