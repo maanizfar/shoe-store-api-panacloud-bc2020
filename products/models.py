@@ -18,7 +18,11 @@ class Product(models.Model):
 
     brands = [
         ('NIKE', 'Nike'),
-        ('ADIDAS', 'Adidas')
+        ('ADIDAS', 'Adidas'),
+        ('HUSHPUPPIES', 'Hush Puppies'),
+        ('Reebok', 'Reebok'),
+        ('Vans', 'Vans'),
+        ('Puma', 'Puma'),
     ]
 
     name = models.CharField(max_length=200)
